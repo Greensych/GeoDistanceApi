@@ -1,0 +1,26 @@
+root = true
+
+# Все файлы
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C# файлы
+[*.cs]
+indent_style = space
+indent_size = 4
+
+# JSON файлы
+[*.json]
+indent_style = space
+indent_size = 2
+
+# XML файлы
+[*.{csproj,xml}]
+indent_style = space
+indent_size = 2
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
